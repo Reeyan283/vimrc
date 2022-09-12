@@ -52,6 +52,9 @@ set noerrorbells
 set vb t_vb=
 set belloff=all
 
+"Fix windows backsapce
+set backspace=indent,eol,start
+
 
 " .md
 autocmd FileType markdown setlocal wrap
