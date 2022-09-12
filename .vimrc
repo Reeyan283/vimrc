@@ -47,6 +47,11 @@ set history=1000
 set wildmenu
 set wildmode=list:longest
 
+"Disable beeping on windows
+set noerrorbells
+set vb t_vb=
+set belloff=all
+
 
 " .md
 autocmd FileType markdown setlocal wrap
